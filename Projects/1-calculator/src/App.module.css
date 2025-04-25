@@ -1,0 +1,29 @@
+.container{
+  border: 2px solid rgba(0, 0, 0, 0.568);
+  border-radius: 5px;
+  width: 20rem;
+  margin: auto;
+  height: vh;
+}
+
+.display{
+  height: 5rem;
+  width: 15rem;
+  margin-top: 1.6rem;
+  margin-left: 2.3rem;
+}
+
+.buttons{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.button{
+  height: 80px;
+  width: 80px;
+  margin: 3px;
+  border: none;
+  border-radius: 4rem;
+  border: 1px solid rgba(0, 0, 0, 0.363);
+  font-size: 2rem;
+}
