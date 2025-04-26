@@ -1,0 +1,48 @@
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+    padding: 8px;
+}
+
+.button {
+    height: 60px;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    font-weight: bold;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.button:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateY(-2px);
+}
+
+.button:active {
+    transform: translateY(0);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* Special styles for operator buttons */
+.button[data-operator] {
+    background: rgba(255, 255, 255, 0.15);
+    color: #3498db;
+}
+
+/* Special style for equals button */
+.button[data-equals] {
+    background: #3498db;
+    color: white;
+}
+
+/* Special style for clear button */
+.button[data-clear] {
+    background: #f1c40f;
+    color: #2c3e50;
+}
