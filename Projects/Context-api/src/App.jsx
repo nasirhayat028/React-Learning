@@ -12,7 +12,7 @@ function App() {
     setDay(item);
   };
   const [color] = useState("Green");
-  const [day, setDay] = useState("Monady");
+  const [day, setDay] = useState("Friday");
   return (
     <GlobalInfo.Provider value={{ appColor: color, getDay: getDay }}>
       <div className="App">

@@ -4,7 +4,8 @@ import { GlobalInfo } from "../App";
 function OtherChild() {
   const { appColor, getDay } = useContext(GlobalInfo);
 
-  const day = "Saturday";
+  const day =
+    "One from Saturday, Sunday, Monaday, Tuesday, Wednesday, Thursday, Friday";
   console.log(day);
 
   return (
